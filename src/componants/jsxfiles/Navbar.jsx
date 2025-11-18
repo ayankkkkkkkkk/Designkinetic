@@ -23,7 +23,7 @@ export default function Navbar() {
 
       <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`} id="nav-items">
         <Link to="/" className="nav-item" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-      <Link to="/portfolio" className="nav-item" onClick={() => setMobileMenuOpen(false)}>portfolio</Link>
+      <a href="https://nexorawatch.my.canva.site/design-kinetic" className="nav-item" onClick={() => setMobileMenuOpen(false)}>portfolio</Link>
         <Link to="/blogs" className="nav-item" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
            </ul>
     </div>
